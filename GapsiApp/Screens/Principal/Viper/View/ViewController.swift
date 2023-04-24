@@ -22,7 +22,7 @@ class PrincipalViewController: UIViewController {
         uiVC.search.addTarget(self, action: #selector(tapSearch(_:)), for: .touchUpInside)
         uiVC.btnSearch.addTarget(self, action: #selector(searchNewData(_:)), for: .touchUpInside)
         Task { [weak self] in
-            await presenter?.viewDidLoad()
+            await self?.presenter?.viewDidLoad()
             self?.pausarLoader(loader: self?.loader ?? UIAlertController())
         }
     }
