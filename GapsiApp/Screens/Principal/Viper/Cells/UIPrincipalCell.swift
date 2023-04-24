@@ -23,6 +23,7 @@ class UIPrincipalCell: UITableViewCell {
     
     lazy var lblTitle: UILabel = {
         let item = UILabel()
+        item.numberOfLines = 0
         item.translatesAutoresizingMaskIntoConstraints = false
         return item
     }()
