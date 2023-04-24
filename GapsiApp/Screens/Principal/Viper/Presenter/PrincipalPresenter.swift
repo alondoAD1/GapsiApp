@@ -21,9 +21,11 @@ class PrincipalPresenter: ViewToPresenterDashboardProtocol {
     
     @MainActor
     func viewDidLoad() async {
-        arrData.removeAll()
         view?.showActivity()
         do {
+            if UserDefaults.standard.object(forKey: "WordsArr") != nil {
+                arrWords = UserDefaults.standard.stringArray(forKey: "WordsArr") ?? [String]()
+            }
             await interactor?.getAccountData(query: "computer", page: "1")
             
             view?.hideActivity()
@@ -34,7 +36,6 @@ class PrincipalPresenter: ViewToPresenterDashboardProtocol {
     
     @MainActor
     func refresh(query: String, page: String) async {
-        // refresh data
         do {
             await interactor?.getAccountData(query: query, page: page)
             
@@ -82,7 +83,6 @@ class PrincipalPresenter: ViewToPresenterDashboardProtocol {
 
 extension PrincipalPresenter: InteractorToPresenterDashboardProtocol {
     func fetchAccountDataSuccess(data: JsonModel) {
-        arrWords = UserDefaults.standard.stringArray(forKey: "WordsArr") ?? [String]()
         for data in data.item?.props.pageProps.initialData.searchResult.itemStacks ?? [] {
             arrData = data.items
         }
