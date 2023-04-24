@@ -21,9 +21,9 @@ class PrincipalViewController: UIViewController {
         setUpUI()
         uiVC.search.addTarget(self, action: #selector(tapSearch(_:)), for: .touchUpInside)
         uiVC.btnSearch.addTarget(self, action: #selector(searchNewData(_:)), for: .touchUpInside)
-        Task {
+        Task { [weak self] in
             await presenter?.viewDidLoad()
-            self.pausarLoader(loader: self.loader)
+            self?.pausarLoader(loader: self?.loader ?? UIAlertController())
         }
     }
     
@@ -50,9 +50,9 @@ class PrincipalViewController: UIViewController {
         self.present(self.loader, animated: true, completion: nil)
         if let value = uiVC.search.text {
             presenter?.arrWords.append(value)
-            Task {
-                await self.presenter?.refresh(query: value.capitalized, page: "1")
-                self.pausarLoader(loader: self.loader)
+            Task { [weak self] in
+                await self?.presenter?.refresh(query: value.capitalized, page: "1")
+                self?.pausarLoader(loader: self?.loader ?? UIAlertController())
                 UserDefaults.standard.set(presenter?.arrWords, forKey: "WordsArr")
                 UserDefaults.standard.synchronize()
             }
@@ -116,9 +116,9 @@ extension PrincipalViewController: UITableViewDelegate, UITableViewDataSource {
             let data = presenter?.arrWords[indexPath.row]
             loader = self.loader(message: "Searching")
             self.present(self.loader, animated: true, completion: nil)
-            Task {
-                await self.presenter?.refresh(query: data ?? "", page: "1")
-                self.pausarLoader(loader: self.loader)
+            Task { [weak self] in
+                await self?.presenter?.refresh(query: data ?? "", page: "1")
+                self?.pausarLoader(loader: self?.loader ?? UIAlertController())
             }
         }
     }
