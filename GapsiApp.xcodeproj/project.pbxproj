@@ -16,6 +16,19 @@
 		149AAE9B29F5F07A00B0FA8B /* GapsiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149AAE9A29F5F07A00B0FA8B /* GapsiAppTests.swift */; };
 		149AAEA529F5F07A00B0FA8B /* GapsiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149AAEA429F5F07A00B0FA8B /* GapsiAppUITests.swift */; };
 		149AAEA729F5F07A00B0FA8B /* GapsiAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149AAEA629F5F07A00B0FA8B /* GapsiAppUITestsLaunchTests.swift */; };
+		149AAEC129F5F2A400B0FA8B /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149AAEC029F5F2A400B0FA8B /* NetworkingService.swift */; };
+		149AAEC529F5F5E000B0FA8B /* UIPrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149AAEC429F5F5E000B0FA8B /* UIPrincipal.swift */; };
+		149AAEC729F5F66300B0FA8B /* UIPrincipalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149AAEC629F5F66300B0FA8B /* UIPrincipalCell.swift */; };
+		149AAEC929F5F74A00B0FA8B /* PrincipalProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149AAEC829F5F74A00B0FA8B /* PrincipalProtocols.swift */; };
+		149AAECB29F5F78B00B0FA8B /* PrincipalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149AAECA29F5F78B00B0FA8B /* PrincipalModel.swift */; };
+		149AAECD29F5F7D200B0FA8B /* PrincipalInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149AAECC29F5F7D200B0FA8B /* PrincipalInteractor.swift */; };
+		149AAECF29F5F81300B0FA8B /* NetworConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149AAECE29F5F81300B0FA8B /* NetworConstants.swift */; };
+		149AAED129F6013A00B0FA8B /* PrincipalRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149AAED029F6013A00B0FA8B /* PrincipalRouter.swift */; };
+		149AAED329F6017700B0FA8B /* PrincipalPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149AAED229F6017700B0FA8B /* PrincipalPresenter.swift */; };
+		149AAED529F6035F00B0FA8B /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149AAED429F6035F00B0FA8B /* UIConstants.swift */; };
+		149AAED829F626D600B0FA8B /* +UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149AAED729F626D600B0FA8B /* +UIImageView.swift */; };
+		149AAEDA29F6347500B0FA8B /* +UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149AAED929F6347500B0FA8B /* +UIViewController.swift */; };
+		149AAEDC29F63D8E00B0FA8B /* PrincipalWordsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149AAEDB29F63D8E00B0FA8B /* PrincipalWordsCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +62,19 @@
 		149AAEA029F5F07A00B0FA8B /* GapsiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GapsiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		149AAEA429F5F07A00B0FA8B /* GapsiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GapsiAppUITests.swift; sourceTree = "<group>"; };
 		149AAEA629F5F07A00B0FA8B /* GapsiAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GapsiAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		149AAEC029F5F2A400B0FA8B /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
+		149AAEC429F5F5E000B0FA8B /* UIPrincipal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPrincipal.swift; sourceTree = "<group>"; };
+		149AAEC629F5F66300B0FA8B /* UIPrincipalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPrincipalCell.swift; sourceTree = "<group>"; };
+		149AAEC829F5F74A00B0FA8B /* PrincipalProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalProtocols.swift; sourceTree = "<group>"; };
+		149AAECA29F5F78B00B0FA8B /* PrincipalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalModel.swift; sourceTree = "<group>"; };
+		149AAECC29F5F7D200B0FA8B /* PrincipalInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalInteractor.swift; sourceTree = "<group>"; };
+		149AAECE29F5F81300B0FA8B /* NetworConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworConstants.swift; sourceTree = "<group>"; };
+		149AAED029F6013A00B0FA8B /* PrincipalRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalRouter.swift; sourceTree = "<group>"; };
+		149AAED229F6017700B0FA8B /* PrincipalPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalPresenter.swift; sourceTree = "<group>"; };
+		149AAED429F6035F00B0FA8B /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
+		149AAED729F626D600B0FA8B /* +UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+UIImageView.swift"; sourceTree = "<group>"; };
+		149AAED929F6347500B0FA8B /* +UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+UIViewController.swift"; sourceTree = "<group>"; };
+		149AAEDB29F63D8E00B0FA8B /* PrincipalWordsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalWordsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +125,12 @@
 		149AAE8229F5F07800B0FA8B /* GapsiApp */ = {
 			isa = PBXGroup;
 			children = (
+				149AAEB329F5F1C300B0FA8B /* Screens */,
+				149AAEB429F5F1D300B0FA8B /* Service */,
+				149AAEB529F5F1D900B0FA8B /* Constants */,
+				149AAED629F626AF00B0FA8B /* Extensions */,
 				149AAE8329F5F07800B0FA8B /* AppDelegate.swift */,
 				149AAE8529F5F07800B0FA8B /* SceneDelegate.swift */,
-				149AAE8729F5F07800B0FA8B /* ViewController.swift */,
 				149AAE8929F5F07800B0FA8B /* Main.storyboard */,
 				149AAE8C29F5F07A00B0FA8B /* Assets.xcassets */,
 				149AAE8E29F5F07A00B0FA8B /* LaunchScreen.storyboard */,
@@ -125,6 +154,136 @@
 				149AAEA629F5F07A00B0FA8B /* GapsiAppUITestsLaunchTests.swift */,
 			);
 			path = GapsiAppUITests;
+			sourceTree = "<group>";
+		};
+		149AAEB329F5F1C300B0FA8B /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				149AAEB629F5F1F100B0FA8B /* Principal */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		149AAEB429F5F1D300B0FA8B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				149AAEBF29F5F28B00B0FA8B /* ApiRest */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		149AAEB529F5F1D900B0FA8B /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				149AAECE29F5F81300B0FA8B /* NetworConstants.swift */,
+				149AAED429F6035F00B0FA8B /* UIConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		149AAEB629F5F1F100B0FA8B /* Principal */ = {
+			isa = PBXGroup;
+			children = (
+				149AAEB729F5F1FB00B0FA8B /* Viper */,
+			);
+			path = Principal;
+			sourceTree = "<group>";
+		};
+		149AAEB729F5F1FB00B0FA8B /* Viper */ = {
+			isa = PBXGroup;
+			children = (
+				149AAEC329F5F56900B0FA8B /* Cells */,
+				149AAEC229F5F56000B0FA8B /* UI */,
+				149AAEB829F5F20100B0FA8B /* Protocols */,
+				149AAEBA29F5F21300B0FA8B /* View */,
+				149AAEBB29F5F21A00B0FA8B /* Interactor */,
+				149AAEBC29F5F22000B0FA8B /* Presenter */,
+				149AAEBD29F5F22700B0FA8B /* Entity */,
+				149AAEBE29F5F22E00B0FA8B /* Router */,
+			);
+			path = Viper;
+			sourceTree = "<group>";
+		};
+		149AAEB829F5F20100B0FA8B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				149AAEC829F5F74A00B0FA8B /* PrincipalProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		149AAEBA29F5F21300B0FA8B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				149AAE8729F5F07800B0FA8B /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		149AAEBB29F5F21A00B0FA8B /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				149AAECC29F5F7D200B0FA8B /* PrincipalInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		149AAEBC29F5F22000B0FA8B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				149AAED229F6017700B0FA8B /* PrincipalPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		149AAEBD29F5F22700B0FA8B /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				149AAECA29F5F78B00B0FA8B /* PrincipalModel.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		149AAEBE29F5F22E00B0FA8B /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				149AAED029F6013A00B0FA8B /* PrincipalRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		149AAEBF29F5F28B00B0FA8B /* ApiRest */ = {
+			isa = PBXGroup;
+			children = (
+				149AAEC029F5F2A400B0FA8B /* NetworkingService.swift */,
+			);
+			path = ApiRest;
+			sourceTree = "<group>";
+		};
+		149AAEC229F5F56000B0FA8B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				149AAEC429F5F5E000B0FA8B /* UIPrincipal.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		149AAEC329F5F56900B0FA8B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				149AAEC629F5F66300B0FA8B /* UIPrincipalCell.swift */,
+				149AAEDB29F63D8E00B0FA8B /* PrincipalWordsCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		149AAED629F626AF00B0FA8B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				149AAED729F626D600B0FA8B /* +UIImageView.swift */,
+				149AAED929F6347500B0FA8B /* +UIViewController.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +417,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				149AAED129F6013A00B0FA8B /* PrincipalRouter.swift in Sources */,
+				149AAEC729F5F66300B0FA8B /* UIPrincipalCell.swift in Sources */,
 				149AAE8829F5F07800B0FA8B /* ViewController.swift in Sources */,
+				149AAECB29F5F78B00B0FA8B /* PrincipalModel.swift in Sources */,
+				149AAEDC29F63D8E00B0FA8B /* PrincipalWordsCell.swift in Sources */,
 				149AAE8429F5F07800B0FA8B /* AppDelegate.swift in Sources */,
+				149AAED529F6035F00B0FA8B /* UIConstants.swift in Sources */,
 				149AAE8629F5F07800B0FA8B /* SceneDelegate.swift in Sources */,
+				149AAECF29F5F81300B0FA8B /* NetworConstants.swift in Sources */,
+				149AAEDA29F6347500B0FA8B /* +UIViewController.swift in Sources */,
+				149AAEC129F5F2A400B0FA8B /* NetworkingService.swift in Sources */,
+				149AAEC929F5F74A00B0FA8B /* PrincipalProtocols.swift in Sources */,
+				149AAED329F6017700B0FA8B /* PrincipalPresenter.swift in Sources */,
+				149AAECD29F5F7D200B0FA8B /* PrincipalInteractor.swift in Sources */,
+				149AAED829F626D600B0FA8B /* +UIImageView.swift in Sources */,
+				149AAEC529F5F5E000B0FA8B /* UIPrincipal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
